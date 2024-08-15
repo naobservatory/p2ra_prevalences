@@ -64,17 +64,18 @@ def load_weekly_data() -> WeeklyData:
     # State -> Week -> (PositiveA, PositiveB)
     output: WeeklyData = {}
 
-    # Downloaded 2023-05-08 from
+    # Downloaded 2024-08-15 from
     # https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html with options:
     #   Select Data Source:
     #      [x] WHO/NREVSS   [ ] ILINet
     #   [x] State
     #   Select Regions: [x] Select All
     #   Select Seasons:
-    #     [x] 2022-2023
-    #     [x] 2021-2022
-    #     [x] 2020-2021
-    #     [x] 2019-2020
+    #     [x] 2023-24
+    #     [x] 2022-23
+    #     [x] 2021-22
+    #     [x] 2020-21
+    #     [x] 2019-20
     #
     # This is CDC data on the number of positive tests by week, for Flu A vs
     # Flu B.
